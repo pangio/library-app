@@ -33,3 +33,17 @@ npm run lint
 - `router`, *pending* to use views/pages and vue-router to map components to routes and keep url updated.
 - `BookDetails.vue` *pending* to call Cover Api to render the pics or thumbnails.
 - `Jest` *pending* to install and create unit tests.
+
+
+# Screenshots
+
+## search
+![author search 1](https://github.com/pangio/library-app/blob/master/screenshots/Screen%20Shot%202022-03-30%20at%2000.00.35.png)
+![author search 2](https://github.com/pangio/library-app/blob/master/screenshots/Screen%20Shot%202022-03-30%20at%2000.01.24.png)
+
+## work list
+![work list](https://github.com/pangio/library-app/blob/master/screenshots/Screen%20Shot%202022-03-30%20at%2000.01.41.png)
+
+## work/book details
+![eg book details 1](https://github.com/pangio/library-app/blob/master/screenshots/Screen%20Shot%202022-03-30%20at%2000.11.02.png)
+![eg book details 2](https://github.com/pangio/library-app/blob/master/screenshots/Screen%20Shot%202022-03-30%20at%2000.11.19.png)
