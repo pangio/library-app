@@ -34,10 +34,12 @@ npm run lint
 - `BookDetails.vue` *pending* to call Cover Api to render the pics or thumbnails.
 - `Jest` *pending* to install and create unit tests.
 
+## accessibility check
+![accessibility](https://github.com/pangio/library-app/blob/master/screenshots/Screen%20Shot%202022-03-30%20at%2000.38.07.png)
 
-# Screenshots
+# Screenshots (desktop)
 
-## search
+## search 
 ![author search 1](https://github.com/pangio/library-app/blob/master/screenshots/Screen%20Shot%202022-03-30%20at%2000.00.35.png)
 ![author search 2](https://github.com/pangio/library-app/blob/master/screenshots/Screen%20Shot%202022-03-30%20at%2000.01.24.png)
 
@@ -47,3 +49,15 @@ npm run lint
 ## work/book details
 ![eg book details 1](https://github.com/pangio/library-app/blob/master/screenshots/Screen%20Shot%202022-03-30%20at%2000.11.02.png)
 ![eg book details 2](https://github.com/pangio/library-app/blob/master/screenshots/Screen%20Shot%202022-03-30%20at%2000.11.19.png)
+
+
+# Screenshots (mobile)
+
+## search 
+![author search](https://github.com/pangio/library-app/blob/master/screenshots/Screen%20Shot%202022-03-30%20at%2000.39.15.png)
+
+## work list
+![work list](https://github.com/pangio/library-app/blob/master/screenshots/Screen%20Shot%202022-03-30%20at%2000.39.39.png)
+
+## work/book details
+![book details](https://github.com/pangio/library-app/blob/master/screenshots/Screen%20Shot%202022-03-30%20at%2000.40.08.png)
