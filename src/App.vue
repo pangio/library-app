@@ -1,22 +1,24 @@
 <template>
   <div id="app">
     <Search/>
-    <!-- <Author author="Simon Sinek"/>
-    <Book book="Leaders eat last"/> -->
-    <!-- <div>{{store.state.fff}}</div> -->
+    <AuthorsResults v-if="$store.state.authorsList.length && !$store.state.workList.length"/>
+    <WorksResults v-if="$store.state.workList.length"/>
+    <BookDetails v-if="$store.state.work"/>
   </div>
 </template>
 
 <script>
-// import Author from './components/Author.vue'
-// import Book from './components/Book.vue'
+import AuthorsResults from './components/AuthorsResults.vue'
+import WorksResults from './components/WorksResults.vue'
+import BookDetails from './components/BookDetails.vue'
 import Search from './components/Search.vue'
 
 export default {
   name: 'App',
   components: {
-    // Author,
-    // Book,
+    AuthorsResults,
+    WorksResults,
+    BookDetails,
     Search
   }
 }
