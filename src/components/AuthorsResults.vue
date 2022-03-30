@@ -4,7 +4,7 @@
     <ul>
       <li v-for="author in $store.state.authorsList" 
         :key="author.key"
-        @click="selectAuthor(author.key)"
+        @click="fetchWorkList(author.key)"
         class="author-item">
           <p v-if="author.name"><strong> Name:</strong> {{ author.name}}</p>
           <p v-if="author.bio"><strong> BIO:</strong> {{ author.bio}}</p>
@@ -24,12 +24,7 @@ import axios from 'axios'
 export default {
   name: 'AuthorsResults',
   methods: {
-    selectAuthor(authorKey) {
-      this.$store.commit('updateAuthorKey', authorKey)
-      this.fetchWorkList()
-    },
-    async fetchWorkList() {
-      const { authorKey } = this.$store.state
+    async fetchWorkList(authorKey) {
       console.log(authorKey)
       if (!authorKey) return
 

@@ -1,6 +1,6 @@
 <template>
   <div class="work">
-    <h4 vi>{{ $store.state.author.name}}'s Work:</h4>
+    <h4 vi>{{ $store.state.author.name}}</h4>
     <ul>
       <li v-for="work in $store.state.workList" 
         :key="work.key"

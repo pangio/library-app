@@ -5,6 +5,7 @@
       <input type="text" placeholder="Search Author"
         v-model.lazy="searchTerm"
         id="input-search"
+        @focus="clear()"
         @keyup.enter="searchAuthor()">
     </div>
   </div>
@@ -17,6 +18,13 @@ import axios from 'axios'
 export default {
   name: 'Search',
   methods: {
+    clear() {
+      this.searchTerm = ''
+      this.$store.commit('updateAuthor', {})
+      this.$store.commit('updateWork', {})
+      this.$store.commit('updateAuthorList', [])
+      this.$store.commit('updateWorkList', [])
+    },
     async searchAuthor() {
       if (!this.searchTerm) return
       await axios.get(`https://openlibrary.org/search/authors.json?q=${this.searchTerm}`)

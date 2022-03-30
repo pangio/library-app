@@ -6,7 +6,6 @@ Vue.use(Vuex)
 export default new Vuex.Store({
   state: {
     // used for authors search and results
-    authorKey: '',
     authorsList: [],
     // author's work
     author: {},
@@ -15,9 +14,6 @@ export default new Vuex.Store({
     work: {}
   },
   mutations: {
-    updateAuthorKey(state, value) { 
-      state.authorKey = value
-    },
     updateAuthorList(state, value) {
       state.authorsList = value
     },

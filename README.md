@@ -25,7 +25,7 @@ npm run lint
 ```
 
 # Code structure and notes:
-- `Search.vue` remains visible allowing users to search for authors.
+- `Search.vue` remains visible allowing users to search for authors. Whenever the search gets focus, existing results are cleaned up.
 - `AuthorsResults.vue` shows results for a given input search.
 - `WorksResults.vue` shows work for a given author.
 - `BookDetails.vue` shows book's details.
