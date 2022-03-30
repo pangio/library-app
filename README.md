@@ -33,7 +33,7 @@ npm run lint
 - `router`, *pending* to use views/pages and vue-router to map components to routes and keep url updated.
 - `BookDetails.vue` *pending* to call Cover Api to render the pics or thumbnails.
 - `Jest` *pending* to install and create unit tests.
-- `accessibility` checked with a free Google Chrome extension.
+- `accessibility` checked with a free Google Chrome extension; *pending* to implement [best practices](https://vuejs.org/guide/best-practices/accessibility.html) as application grows (alt, aria-label, headings, etc) and test further.
 
 
 ## accessibility check
